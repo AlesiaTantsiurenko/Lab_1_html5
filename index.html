@@ -1,0 +1,109 @@
+<!DOCTYPE html5>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Резюме</title>
+		<link rel="stylesheet" href="css/setting.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Playfair+Display&family=Sacramento&display=swap" rel="stylesheet"/>
+		<script src=«http://html5shiv.googlecode.com/svn/trunk/html5.js»></script>
+	</head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img"/>
+      <h1><em>Я Алеся!</em></h1>
+      <h2>ВИАС21</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img"/>
+      <img class="montain" src="images/mountain.png" alt="mountain-img"/>
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/Alesia.png" alt="My photo"/>
+        <h2>Привет</h2>
+        <p class="intro">Я Танцюренко Алеся Алексеевна - начинающий программист</p>
+      </div>
+      <hr/>
+      <div class="skills">
+        <h2>Данные о мне</h2>
+        <div class="skill-row">
+          <img class="computer" src="images/computer.png" alt="Computer">
+          <h2>Образование</h2>
+					<p>2010-2021 - среднее общее образование - школа №52</p>
+					<p>2011-2019 - музыкальное образование</p>
+          <p>С 2021 и по сегодняшний день - Херсонский государственный университет.</p>
+        </div>
+        <div class="skill-row">
+          <img class="photo" src="images/chillies.png" alt="Chillies"/>
+          <h2>Опыт работы</h2>
+          <p>Разрабатывала пользовательский интерфейс для студентов и учителей.</p>
+					<p>Зачищала провода и цепляла клемы на производстве.</p>
+					<p>Организовывала концертную программу для студентов.</p>
+        </div>
+				<div class="skill-row">
+          <img class="computer" src="images/computer.png" alt="Computer"/>
+          <h2>Интересы</h2>
+          <p>Увлекаюсь программированием на таких языках, как Python, C#, JS, React и другие.</p>
+					<p>Рисую в таких стилях, как портрет, пейзаж, натюрморт.</p>
+					<p>Монтирую видео, редактирую фотографии в программе Vegas Pro.</p>
+        </div>
+      </div>
+      <hr/>
+
+      <div class="contact-me">
+        <h2>Напиши мне</h2>
+				<form action="">
+				<fieldset>
+					<legend align="center">Контактная информация</legend>
+					<div class="main">
+					<div class="contact-input">
+						<label>ФИО:</label>
+						<input type ="text" name = "name"  placeholder="Введите имя" required/>
+					</div><br/>	
+					<div class="contact-input">	
+						<label>Тел.:</label>
+						<input type="tel" name="tel" placeholder="Введите телефон"/>
+					</div><br/>
+					<div class="contact-input">
+						<label>Почта:</label>
+						<input type="email" name="mail" placeholder="Введите почту" required/>
+					</div><br/>
+					<div class="contact-input">
+						<label>ДР:</label>
+						<input type="date" name="date"/>
+					</div><br/>
+					<div class="contact-input">
+						<label>Образование:</label>
+						<select name="study">
+								<option value="1">Основное общее (5—9 класс)</option>
+								<option value="2">Среднее общее (10-11 класс)</option>
+								<option value="3">Среднее профессиональное</option>
+								<option value="4">Бакалавриат</option>
+								<option value="5">Специалитет</option>
+								<option value="5">Магистратура</option>
+							</select>
+					</div><br/>
+					<div class="contact-input">
+						<label>Сообщение:</label>
+						<textarea name="comment"></textarea>
+					</div><br/>
+
+			<input class="button" type="submit" name = "submit" value = "Отправить"/>
+			</div>
+		</fieldset>
+	</form>
+      </div>
+			
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="link">© Alesia Tantsiurenko.</p>
+    </div>
+  </body>
+</html>

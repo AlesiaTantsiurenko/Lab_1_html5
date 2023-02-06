@@ -1,0 +1,200 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+h1 {
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+hr{
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width:4%;
+  margin: 100px auto;
+}
+p {
+    line-height: 2;
+}
+.montain{
+	max-width: 100%;
+}
+.top-container {
+	border-top: 10px solid #66BFBF !important;
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin:100px 0;
+}
+.pro{
+  text-decoration: underline;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom:250px;
+}
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top:40px;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.computer{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.photo{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+.link {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+form{
+	margin-top: 20px;
+}
+input:hover, textarea:hover, select:hover{
+	border-color: #66BFBF;
+}
+input:focus, textarea:focus, select:focus{
+	outline: none;
+	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+input:focus::placeholder {
+	color: transparent;
+	
+}
+
+fieldset{
+	padding: 3%;
+	text-align: left;
+	display: inline-block;
+	min-width: 48%;
+	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+legend{
+	font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contact-input{
+	margin-bottom: 2rem;
+	display: flex;
+	justify-content: center;
+}
+.contact-input > label{
+	flex: 1;
+}
+input, select, textarea {
+	font-family: 'Sacramento', cursive;
+	font-size: 17px;
+	max-width: 70%;
+	height: 25px;
+	margin-left: 2rem;
+	flex: 2;
+}
+textarea{
+	height: 50px;
+}
+.button{
+	font-size: 14px;
+  font-family: 'Sacramento', cursive;
+	border-color: #66BFBF;
+	color:#fff;
+	box-shadow: 0 0 40px 40px #66BFBF inset, 0 0 0 0 #66BFBF;
+	-webkit-transition: all 150ms ease-in-out;
+	transition: all 150ms ease-in-out;
+	float: right;
+	height: 35px;
+	min-width:20%; 
+}
+.button:hover{
+	box-shadow: 0 0 2px 0 #90f0f0 inset, 0 0 60px 2px #90f0f0;
+	color: black;
+}
+@media screen and (min-width: 768px) {
+	.contact-input > input, select, textarea{
+		flex:3;
+	}
+}
+@media screen and (min-width: 992px) {
+	.contact-input > input, select, textarea{
+		flex:4;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.contact-input > input, select, textarea{
+		flex:5;
+	}
+}
+
+.bottom-container {
+   background-color: #66BFBF;
+   padding: 50px 0 20px;
+}
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #66BFBF;
+	background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
